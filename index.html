@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>we doin javasscript</h1>
+
+
+    <a href="https:www.youtube.com"target="_blank" onclick="alert('warning you are a potato')">click here</a>
+    
+    <hr>
+    <h2>you cant find it</h2>
+    <h2>u no findy</h2>
+    <p id="secret"></p>
+    <p id="gone"></p>
+    <button onclick="document.getElementById('secret').innerHTML='nah u no findy yet';
+     document.getElementById('secret').style.display='block';document.getElementById('secret').style.display='block';document.getElementById('gone').innerHTML='  '">you might findy here</button>
+    <button onclick="document.getElementById('secret').style.display='none';document.getElementById('gone').innerHTML='it gone now'"
+     >u wanna findy here now</button>
+<button onclick="document.getElementById('secret').innerHTML=' ';document.getElementById('gone').innerHTML=' '">reset</button>
+
+<!-- HW/CW -->
+
+<button onclick="document.getElementById('myimage').src='bulbon.jpg'">bulb off</button>
+<button onclick="document.getElementById('myimage').src='bulboff.jpg'">bulb on</button>
+<img src="bulboff.jpg" id="myimage" style="height: 20cm; width:20cm">
+</body>
+</html>
